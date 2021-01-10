@@ -10,12 +10,10 @@ pub fn remove_comments(input: &str) -> IResult<&str, String> {
         String::new(),
         |mut s: String, item: Element| match item {
             Element::TextLiteral(content) => {
-                eprintln!("{}", content);
                 s.push_str(content);
                 s
             }
             Element::Code(content) => {
-                eprintln!("{}", content);
                 s.push_str(content);
                 s
             }

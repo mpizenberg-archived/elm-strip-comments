@@ -14,6 +14,17 @@ All notable changes to this project will be documented in this file.
 #### Fixed
 
 
+## [0.1.1] - (2021-01-10)  [(diff)][diff-0.1.1]
+
+### Removed
+
+- Removed some forgotten debug logging.
+
+#### Fixed
+
+- Fixed errors in changelog links.
+
+
 ## [0.1.0] - (2021-01-10)
 
 ### Added
@@ -26,5 +37,7 @@ All notable changes to this project will be documented in this file.
 - `.gitignore` configured for a Rust project.
 - `.github/workflows/` CI to automatically build and test on pull requests.
 
-[0.1.0]: https://github.com/mpizenberg/elm-test-rs/releases/tag/v0.1
-[diff-unreleased]: https://github.com/mpizenberg/elm-test-rs/compare/v0.1...master
+[0.1.0]: https://github.com/mpizenberg/elm-strip-comments/releases/tag/v0.1.1
+[0.1.0]: https://github.com/mpizenberg/elm-strip-comments/releases/tag/v0.1
+[diff-unreleased]: https://github.com/mpizenberg/elm-strip-comments/compare/v0.1.1...master
+[diff-0.1.1]: https://github.com/mpizenberg/elm-strip-comments/compare/v0.1...v0.1.1
