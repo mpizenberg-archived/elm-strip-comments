@@ -74,7 +74,10 @@ fn run(args: Args) -> Result<(), Box<dyn std::error::Error>> {
 
     match (files_abs_paths.len(), args.replace) {
         (0, _) => Err("No matching file found".into()),
-        (1, false) => Ok(print!("{}", strip_comments(&files_abs_paths[0])?)),
+        (1, false) => {
+            print!("{}", strip_comments(&files_abs_paths[0])?);
+            Ok(())
+        }
         (1, true) => {
             let stripped = strip_comments(&files_abs_paths[0])?;
             fs::write(&files_abs_paths[0], stripped).map_err(|e| e.into())
