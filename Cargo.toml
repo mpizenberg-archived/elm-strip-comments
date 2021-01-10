@@ -1,0 +1,16 @@
+[package]
+name = "elm-strip-comments"
+version = "0.1.0"
+authors = ["Matthieu Pizenberg <matthieu.pizenberg@gmail.com>"]
+edition = "2018"
+description = "Remove comments from elm source code"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+pico-args = "0.3.4"
+glob = "0.3.0"
+pathdiff = "0.2.0"
+nom = "6.0.1"
+
+[dev-dependencies]
